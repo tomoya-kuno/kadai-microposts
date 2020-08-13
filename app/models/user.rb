@@ -51,7 +51,4 @@ class User < ApplicationRecord
   def loving?(other_micropost)
     self.lovings.include?(other_micropost)
   end
-  
-  
-  
 end
